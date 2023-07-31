@@ -3,11 +3,11 @@ import knex from "knex";
 const db = knex({
   client: "pg",
   connection: {
-    host: "localhost",
-    password: "levon10042002",
-    user: "postgres",
-    database: "postgres",
-    port: 5432,
+    host: "",
+    password: "",
+    user: "",
+    database: "",
+    port: ,
   },
 });
 
